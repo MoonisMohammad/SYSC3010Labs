@@ -19,7 +19,7 @@ def thermometer():
         conn.close()
     except:
         print("connection failed")
-      break
+    break
 if __name__ == "__main__":
     while True:
         thermometer()
